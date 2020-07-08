@@ -1,0 +1,13 @@
+Server:
+  port: 8080
+spring:
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/client-info
+    username: root
+    password: 1qaz2wsxM!
+info:
+  app:
+  description: This is client info service on spring boot application
+  name: client-info
+  version: 1.0.0
